@@ -4,12 +4,11 @@
     box-sizing: border-box;
 }
 body{
-    
     font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
     background-color:hsl(30, 38%, 92%);
     margin: 20px 10px;
-    min-height: 100vh;  
+  
 }
 p{
     font-size: 14px;
@@ -91,16 +90,19 @@ svg{
     .card{
         display: flex;
         background-color: hsl(0, 0%, 100%); 
-        margin:100px auto; 
-
+        margin:100px auto;
     }
-    .container{
-        border-radius: 10px 0px 0px 10px
+    .container, .card{
+        border-radius: 10px 0px 0px 10px;
+        
     }
     picture,
     img{
+        border-radius: 10px 0px 0px 10px;
+       min-height: 100%;
        object-fit: cover;
-        border-radius: 10px 0px 0px 10px; 
-       
+      
+      
     }
+    
 }
